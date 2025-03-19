@@ -1118,12 +1118,3 @@ class ChartBuilder extends HTMLElement {
 
 // Define the custom element
 customElements.define('chart-builder', ChartBuilder);
-
-// For Wix Studio
-export default {
-  id: 'chart-builder',
-  name: 'Chart Builder',
-  properties: {
-    // Wix settings here
-  }
-};
